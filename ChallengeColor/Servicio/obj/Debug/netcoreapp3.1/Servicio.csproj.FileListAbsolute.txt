@@ -1,0 +1,11 @@
+C:\Users\margi\source\repos\ChallengeColor\Servicio\bin\Debug\netcoreapp3.1\Servicio.deps.json
+C:\Users\margi\source\repos\ChallengeColor\Servicio\bin\Debug\netcoreapp3.1\Servicio.dll
+C:\Users\margi\source\repos\ChallengeColor\Servicio\bin\Debug\netcoreapp3.1\Servicio.pdb
+C:\Users\margi\source\repos\ChallengeColor\Servicio\bin\Debug\netcoreapp3.1\Modelo.dll
+C:\Users\margi\source\repos\ChallengeColor\Servicio\bin\Debug\netcoreapp3.1\Modelo.pdb
+C:\Users\margi\source\repos\ChallengeColor\Servicio\obj\Debug\netcoreapp3.1\Servicio.csprojAssemblyReference.cache
+C:\Users\margi\source\repos\ChallengeColor\Servicio\obj\Debug\netcoreapp3.1\Servicio.AssemblyInfoInputs.cache
+C:\Users\margi\source\repos\ChallengeColor\Servicio\obj\Debug\netcoreapp3.1\Servicio.AssemblyInfo.cs
+C:\Users\margi\source\repos\ChallengeColor\Servicio\obj\Debug\netcoreapp3.1\Servicio.csproj.CopyComplete
+C:\Users\margi\source\repos\ChallengeColor\Servicio\obj\Debug\netcoreapp3.1\Servicio.dll
+C:\Users\margi\source\repos\ChallengeColor\Servicio\obj\Debug\netcoreapp3.1\Servicio.pdb

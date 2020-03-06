@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewData["Title"] = "A Jugar";
+}
+
+<style>
+    .color {
+        width: 80px;
+        height: 80px;
+        border: 1px solid black;
+    }
+</style>
+
+@model List<Modelo.Color>
+
+<div class="text-center mb-4">
+    <h3 class="display-4">A Jugar !</h3>
+</div>
+
+<div class="row d-flex justify-content-around">
+    <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-header pt-3">
+                <h4 id="titulo" class="text-dark text-uppercase">  Cuál es ... </h4>
+            </div>
+            <div class="card-body">
+                <div class="row d-flex justify-content-around">
+                    @foreach (var color in Model)
+                    {
+                        if (color.estaSeleccionado == true)
+                        {
+                            <input type="hidden" id="colorBuscado" value="@color.colorHex"> }
+                        <a href="#">
+                            <div class="color" style="background-color: @color.colorHex" colorHex="@color.colorHex">
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $("#titulo").append($("#colorBuscado").val()).append("  ??");
+    });
+
+    $('.color').click(function () {
+        var seleccionado = $(this).attr("colorHex");
+
+        if (seleccionado == $("#colorBuscado").val()) {
+            alert("Bien hecho! :) ");
+        }
+        else {
+            alert("Vuelve a intentarlo :(");
+        }
+        ;
+
+        setTimeout(function () {
+            location.reload()
+        }, 300);
+    });
+
+</script>
